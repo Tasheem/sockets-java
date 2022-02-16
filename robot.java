@@ -36,9 +36,9 @@ public class robot {
 		// 							Step 2 							  //
 		// ---------------------------------------------------------- //		
 		BufferedReader s1_in = new BufferedReader(new InputStreamReader(s1.getInputStream()));
-		char[] studentID = new char[8];
+		char[] studentID = new char[7];
 		int byteRead = 0;
-		int byteLeft = 8;
+		int byteLeft = 7;
 		do{
 			byteRead = s1_in.read(studentID, byteRead, byteLeft);
 		}while ((byteLeft -= byteRead) > 0); 

@@ -10,6 +10,9 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Random;
 
+// Me: Tasheem Hargrove
+// Partner: James Jester
+
 public class Student {
     public static void main(String[] args) {
         String hostName = "174.24.46.251";
